@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>ANITS - Login</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial;
+            background-image: url("bgimage.jpg");
+            background-size: cover;
+            background-position: center;
+             background-image: url("background.jpg");
+        }
+
+        .header {
+            text-align: center;
+            color: white;
+            padding: 30px;
+            font-size: 22px;
+            font-weight: bold;
+        }
+
+        .login-box {
+            width: 300px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: rgba(220, 230, 225, 0.75);
+            border-radius: 5px;
+        }
+
+        h3 {
+            text-align: center;
+            color: blue;
+        }
+
+        label {
+            color: blue;
+            font-size: 13px;
+        }
+
+        input {
+            width: 100%;
+            padding: 8px;
+            margin: 5px 0 12px 0;
+            box-sizing: border-box;
+            border: none;
+        }
+
+        button {
+            width: 100%;
+            padding: 8px;
+            background-color: #2878b8;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #155a8a;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="header">
+        ANITS - Central Placement Portal
+    </div>
+
+    <div class="login-box">
+
+        <h3>User Login</h3>
+
+        <form onsubmit="login(); return false;">
+
+            <label>Username</label>
+            <input type="text" id="username" placeholder="Username">
+
+            <label>Password</label>
+            <input type="password" id="password" placeholder="Enter Password">
+
+            <button type="submit">Login</button>
+
+        </form>
+
+    </div>
+
+    <script>
+        function login() {
+
+            var username = document.getElementById("username").value;
+            var password = document.getElementById("password").value;
+
+            if (username == "venky" && password == "kavya143") {
+                window.location.href = "success.html";
+            }
+            else {
+                alert("Invalid Username or Password");
+            }
+        }
+    </script>
+
+</body>
+</html>
