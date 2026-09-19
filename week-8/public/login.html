@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>User Login</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <header>
+
+        <h1>User Login</h1>
+
+        <nav>
+
+            <a href="/">Home</a>
+
+            <a href="/register">Register</a>
+
+            <a href="/login">Login</a>
+
+        </nav>
+
+    </header>
+
+
+    <main class="form-container">
+
+        <h2>Login to Your Account</h2>
+
+
+        <form action="/login" method="POST">
+
+
+            <label>Username:</label>
+
+            <input
+                type="text"
+                name="username"
+                placeholder="Enter username"
+                required
+            >
+
+
+            <label>Password:</label>
+
+            <input
+                type="password"
+                name="password"
+                placeholder="Enter password"
+                required
+            >
+
+
+            <button type="submit">
+                Login
+            </button>
+
+        </form>
+
+
+        <p class="bottom-text">
+
+            Don't have an account?
+
+            <a href="/register">
+                Register here
+            </a>
+
+        </p>
+
+    </main>
+
+</body>
+
+</html>

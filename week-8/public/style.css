@@ -1,0 +1,249 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f6fa;
+    color: #333;
+    min-height: 100vh;
+}
+
+
+/* ================= HEADER ================= */
+
+header {
+    background-color: #0c3d66;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 32px;
+    margin-bottom: 15px;
+}
+
+
+/* ================= NAVIGATION ================= */
+
+nav {
+    margin-top: 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 17px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+
+/* ================= HOME PAGE ================= */
+
+.container {
+    width: 80%;
+    max-width: 900px;
+    margin: 50px auto;
+    padding: 45px;
+    background-color: white;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);
+}
+
+.container h2 {
+    color: #0c3d66;
+    margin-bottom: 20px;
+}
+
+.container p {
+    margin: 15px 0;
+    line-height: 1.6;
+}
+
+
+/* ================= BUTTONS ================= */
+
+.buttons {
+    margin-top: 30px;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #15679d;
+    color: white;
+    text-decoration: none;
+    padding: 12px 25px;
+    margin: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.btn:hover {
+    background-color: #0c3d66;
+}
+
+
+/* ================= FORM ================= */
+
+.form-container {
+    width: 500px;
+    max-width: 90%;
+    margin: 40px auto;
+    padding: 35px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);
+}
+
+.form-container h2 {
+    text-align: center;
+    color: #0c3d66;
+    margin-bottom: 25px;
+}
+
+
+/* ================= FORM ELEMENTS ================= */
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-top: 12px;
+    margin-bottom: 6px;
+    font-weight: bold;
+}
+
+input,
+select,
+textarea {
+    width: 100%;
+    padding: 11px;
+    border: 1px solid #bbb;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+    outline: none;
+    border-color: #15679d;
+}
+
+
+/* ================= SUBMIT BUTTON ================= */
+
+button {
+    margin-top: 25px;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    background-color: #15679d;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0c3d66;
+}
+
+
+/* ================= BOTTOM TEXT ================= */
+
+.bottom-text {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.bottom-text a {
+    color: #15679d;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+/* ================= DASHBOARD ================= */
+
+.dashboard {
+    width: 80%;
+    max-width: 900px;
+    margin: 50px auto;
+    text-align: center;
+}
+
+.dashboard h2 {
+    color: #0c3d66;
+    margin-bottom: 20px;
+}
+
+.dashboard > p {
+    margin-bottom: 20px;
+}
+
+
+/* ================= CARD ================= */
+
+.card {
+    width: 500px;
+    max-width: 90%;
+    margin: 30px auto;
+    padding: 30px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);
+}
+
+.card h3 {
+    color: #0c3d66;
+    margin-bottom: 15px;
+}
+
+.card p {
+    margin: 10px;
+}
+
+
+/* ================= MESSAGE ================= */
+
+.message-box {
+    width: 500px;
+    max-width: 90%;
+    margin: 100px auto;
+    padding: 40px;
+    background-color: white;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);
+}
+
+.message-box h2 {
+    color: #0c3d66;
+    margin-bottom: 20px;
+}
+
+.message-box p {
+    margin-bottom: 20px;
+}
+
+
+/* ================= FOOTER ================= */
+
+footer {
+    background-color: #0c3d66;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 50px;
+}
