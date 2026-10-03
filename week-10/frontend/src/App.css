@@ -1,0 +1,99 @@
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #eef3f8;
+  color: #222;
+}
+
+.page {
+  width: 95%;
+  max-width: 1100px;
+  margin: 30px auto;
+}
+
+.form-box, .data-box {
+  background: white;
+  padding: 25px;
+  margin-bottom: 25px;
+  border-radius: 10px;
+  box-shadow: 0 3px 12px #00000015;
+}
+
+h1, h2 {
+  color: #0c3d66;
+}
+
+h1 {
+  text-align: center;
+}
+
+form {
+  display: grid;
+  gap: 10px;
+}
+
+form > input, form > select {
+  width: 100%;
+  padding: 11px;
+  border: 1px solid #bbb;
+  border-radius: 5px;
+}
+
+.row, .button-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  align-items: center;
+}
+
+.row label {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+button {
+  padding: 10px 16px;
+  margin: 5px;
+  border: none;
+  border-radius: 5px;
+  background: #15679d;
+  color: white;
+  cursor: pointer;
+}
+
+.delete-button {
+  background: #c0392b;
+}
+
+.message {
+  padding: 12px;
+  background: #e4f5e8;
+  border-radius: 5px;
+}
+
+.table-container {
+  overflow-x: auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: left;
+}
+
+th {
+  background: #15679d;
+  color: white;
+}
+

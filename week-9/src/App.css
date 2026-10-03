@@ -1,0 +1,113 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #e8f1f8;
+}
+
+.container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+}
+
+.form-box {
+  width: 500px;
+  background: white;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.15);
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 5px;
+  color: #174a70;
+}
+
+.subtitle {
+  text-align: center;
+  color: #666;
+  margin-bottom: 25px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-top: 12px;
+  margin-bottom: 6px;
+  font-weight: bold;
+}
+
+input,
+select {
+  padding: 11px;
+  border: 1px solid #bbb;
+  border-radius: 6px;
+  font-size: 15px;
+}
+
+input:focus,
+select:focus {
+  outline: none;
+  border-color: #174a70;
+}
+
+.gender {
+  display: flex;
+  gap: 25px;
+}
+
+.gender label {
+  font-weight: normal;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.terms {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin: 20px 0;
+}
+
+.terms input {
+  width: auto;
+}
+
+.terms span {
+  font-size: 14px;
+}
+
+button {
+  padding: 12px;
+  border: none;
+  border-radius: 6px;
+  background: #174a70;
+  color: white;
+  font-size: 17px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #0d3855;
+}
+
+.success {
+  margin-top: 20px;
+  padding: 12px;
+  text-align: center;
+  background: #d4edda;
+  color: #155724;
+  border-radius: 6px;
+  font-weight: bold;
+}
